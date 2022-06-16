@@ -1,1 +1,5 @@
+Vqa_Background_1.blend filter=lfs diff=lfs merge=lfs -text
+Vqa_Background_Full.blend filter=lfs diff=lfs merge=lfs -text
+Vqa_Backgrounds_Full.blend filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
 *.blender filter=lfs diff=lfs merge=lfs -text
