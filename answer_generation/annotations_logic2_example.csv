@@ -1,0 +1,21 @@
+﻿question_type,multiple_choice_answer,answers,image_id,answer_type,question_id
+logicAnd,no,pumpkin,1000,singleobjects,10000000
+logicAnd,no,pumpkin,1001,singleobjects,10010000
+logicAnd,no,pumpkin,1002,singleobjects,10020000
+logicAnd,no,pumpkin,1003,singleobjects,10030000
+logicAnd,no,pumpkin,1004,singleobjects,10040000
+logicAnd,no,"lettuce,avocado",1005,multipleobjects,10050000
+logicAnd,no,"pepper,leek,parsley,capsicum,cucumber,broccoli,chilli, garlic, carrot",1006,multipleobjects,10060000
+logicAnd,no,"zucchini,pepper,avocado,capsicum,cucumber,chilli",1007,multipleobjects,10070000
+logicAnd,no,"leek,parsley",1008,multipleobjects,10080000
+logicAnd,no,asparagus,1009,singleobjects,10090000
+logicAnd,no,"pepper,capsicum,chilli",1010,multipleobjects,10100000
+logicAnd,no,avocado,1011,singleobjects,10110000
+logicAnd,no,"leek,broccoli,parsley",1012,multipleobjects,10120000
+logicAnd,no,"asparagus,avocado,broccoli",1013,multipleobjects,10130000
+logicAnd,no,"zucchini,asparagus,pepper,capsicum,cucumber,broccoli,chilli",1014,multipleobjects,10140000
+logicAnd,no,capsicum,1015,singleobjects,10150000
+logicAnd,no,asparagus,1016,singleobjects,10160000
+logicAnd,no,"leek,cucumber,zucchini",1017,multipleobjects,10170000
+logicAnd,no,avocado,1018,singleobjects,10180000
+logicAnd,no,"cabbage,lettuce",1019,multipleobjects,10190000
