@@ -22,6 +22,8 @@ First, we construct a knowledge base by using Owlready2.
 ```bash
 cd ontology
 Ontology_LoRA_KnowledgeBase.ipynb ->Run All
+Alternatively,
+python ontology.py
 ```
 
 
