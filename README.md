@@ -67,12 +67,19 @@ cd answer_generation
 SparQL_query.ipynb
 ```
 
-To generate the answers, run:
+To generate the answers for logic 2 questions, run:
 ```bash
 cd answer_generation
-answer_generation.ipynb -> Run All
+python generate_answers_logic2.py
 ```
-The details can be found in the `answer_generation.ipynb` file. 
+
+To generate the answers for logic 3 questions, run:
+```bash
+cd answer_generation
+python generate_answers_logic3.py
+```
+
+The details can also be found in the `answer_generation.ipynb` file. 
 
 
 ## Step 4: Generating Images
@@ -83,9 +90,10 @@ Firstly, install blender v2.93.
 
 Secondly, you need to generate visible_objects.csv file by using: 
 ```bash
-cd answer_generation
-answer_generation.ipynb -> Run All
+cd image_generation
+python visible_object_processing.py
 ```
+
 The generated visible objects file are saved in the folder: 
 ```bash
 cd image_generation
@@ -98,5 +106,5 @@ You can then render some images by using:
 
 ```bash
 cd image_generation
-blender Vqa_Background_1.blend --background --python image_generation.py
+blender Vqa_Background_1.blend --background --python blend_image_generation.py
 ```
