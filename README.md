@@ -102,6 +102,9 @@ logic2_and_visible.csv
 
 You can choose different blender background. The blender background file is `Vqa_Background_1.blend`. We provided four kitchen background scenarios in the file `image_generation/blender_background/Vqa_Backgrounds_Full.blend`. 
 
+Download LoRA Dataset: https://drive.google.com/drive/folders/1H4msZ4ae1msEDApxOT7cr1A1QwQ33Pkn
+
+
 You can then render some images by using:
 
 ```bash
