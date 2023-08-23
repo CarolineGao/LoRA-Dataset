@@ -4,21 +4,21 @@ No. Questions_Samples Logical Complexity Level
 3	Does the image feature an item that has a convex base, includes a stem, and is commonly associated with the consumption of wine?	4
 4	Can the food items displayed in the image that between eggs and bread can be used to prepare a meal for non-vegetarians?	4
 5	If sugar is missing but we still wish to bake a sugary pastry, what are three alternative ingredients?	4
-6	If we don't have chili, what can we use as a substitute from the items in the image to prepare spicy noodles?	4
-7	I want to boil an egg or fry an egg, what tools in the image are suitable respectively?	2
+6	If we don't have chili, what can we use as a substitute from the items in the image to prepare spicy noodles?	6
+7	I want to boil an egg or fry an egg, what tools in the image are suitable respectively?	4
 8	If we want to cook fried eggs with rice noodles but don't have any rice noodles, what other ingredients from the image can we use to make a similar dish?	6
 9	Which foods in the image should be avoided when preparing a meal for someone who follows a vegetarian diet?	4
 10	Which food in the image are not required to cook spicy food for vegetarian people? Which ingredients in the image are not necessary for preparing a spicy vegetarian dish?	6
 11	What tool is missing for cooking vegetable noodles?	3
-12	Which vegetables in the image have at least two nutritional differences compared to the vegetable located between the apple and pear?	4
+12	Which vegetables in the image have at least two nutritional differences compared to the vegetable located between the apple and pear?	8
 13	Is there a food in the picture that is not the same colour as the wine in the glass, and can be used to make pasta sauce?	5
 14	Is the quantity of the item to the right of the watermelon greater than the number of distinct fruits in the picture?	4
-15	Which food has a taste similar to onion and can be used to make broth, and has a similar shape to cucumber?	5
+15	Which food has a taste similar to onion and can be used to make broth, and has a similar shape to cucumber?	3
 16	Is the food that is highest in fat bigger than the food most associated with Halloween?	6
 17	Which food in the picture is not red and is smaller in size than the item to the left of the leak?	5
 18	Is the food closest to the garlic in the picture higher in fat content than the food with the longest length?	5
-19	Which food in the picture is the same colour as the item directly behind the pumpkin but is not the closest item to the garlic, and is in the same half of the picture as the watermelon?	9
-20	Which food in the picture is not a type of fruit, and is not the same colour as the avocado, and has a pungent flavour?	7
+19	Which food in the picture is the same colour as the item directly behind the pumpkin but is not the closest item to the garlic, and is in the same half of the picture as the watermelon?	7
+20	Which food in the picture is not a type of fruit, and is not the same colour as the avocado, and has a pungent flavour?	5
 21	Which food in the picture is not a type of vegetable and is red inside, but is bigger than the item next to the avocado which is not a fruit, and has a flavour that is not sour or bitter?	8
 22	What are the names of the fruits in the basket that are not typically eaten without peeling or the seeds are poisonous?	4
 23	What are the names of the foods in the pantry that cannot be consumed without cooking or the main ingredient is not meat?	5
@@ -41,7 +41,7 @@ No. Questions_Samples Logical Complexity Level
 40	Which food in the picture is a root vegetable that is orange-yellow in color and commonly used for Halloween decorations?	4
 41	Is there a food in the image that is a fruit, or tastes sweet, or can be used to make a juice?	4
 42	In the picture, is there a kitchenware item that is either used for stirring or serving, and is made of either wood or silicone?	5
-43	Which green vegetable on the table contains nutrition with vitamin A, B, and has consumable roots?	3
+43	Which green vegetable on the table contains nutrition with vitamin A, B, and has consumable roots?	4
 44	Which vegetable in the image doesn't belong to the tubers category, has a pungent flavor, and is round in shape?	4
 45	What ingredient is missing to saute spicy noodles?	4
 46	If I want to deep-fry pepper, which equipment in the image can be used?	2
