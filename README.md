@@ -1,8 +1,5 @@
 # LoRA Dataset Generation
-
-```
-https://carolinegao.github.io/lora_web/
-```
+[LoRA Project Website](https://carolinegao.github.io/lora_web/)
 
 This is the code used to generate the LoRA Dataset. 
 
