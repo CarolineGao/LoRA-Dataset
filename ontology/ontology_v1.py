@@ -340,57 +340,57 @@ def getOnto():
         
     #     Fruit 水果实例 - 以下水果未确认blender里面有object
         
-        # kiwifruit = Fruit("kiwifruit", has_shape=[round], has_color=[green], original_from=[china], is_ingredient_of=[fruit_salad])
-        # strawberry = Fruit("strawberry", has_color=[red], has_taste=[sweet])
-        # pineapple = Fruit("pineapple", has_color=[yellow], has_taste=[sweet], is_ingredient_of=[fruit_juice, fruit_salad])
-        # cherry = Fruit("cherry", has_color=[red], has_taste=[sweet, fruity], has_shape=[round])
-        # green_apple = Fruit("green_apple", has_color=[green], has_taste=[sweet], original_from=[america])
-        # red_apple = Fruit("red_apple", has_color=[red], has_taste=[sweet], original_from=[america])
-        # golden_delicious = Fruit("golden_delicious", has_color=[yellow], has_taste=[sweet], original_from=[america])
-        # gala = Fruit("gala", has_color=[red], has_taste=[sweet], original_from=[america])
-        # mandarin = Fruit("mandarin", has_color=[yellow], has_taste=[sweet, juicy])
-        # apple = Fruit("apple", has_child_food=[green_apple, red_apple, golden_delicious, gala])
-        # orange = Fruit("apple", has_child_food=[mandarin])
-        # Add more fruits with simplified relations
-        # mango = Fruit("mango",
-        #     has_color=[yellow, orange],
-        #     has_taste=[sweet, fruity],
-        #     is_ingredient_of=[fruit_salad, smoothie],
-        #     has_shape=[round],
-        #     has_nutrition=[vitamin_A, vitamin_C, fiber, sugar]
-        # )
+        kiwifruit = Fruit("kiwifruit", has_shape=[round], has_color=[green], original_from=[china], is_ingredient_of=[fruit_salad])
+        strawberry = Fruit("strawberry", has_color=[red], has_taste=[sweet])
+        pineapple = Fruit("pineapple", has_color=[yellow], has_taste=[sweet], is_ingredient_of=[fruit_juice, fruit_salad])
+        cherry = Fruit("cherry", has_color=[red], has_taste=[sweet, fruity], has_shape=[round])
+        green_apple = Fruit("green_apple", has_color=[green], has_taste=[sweet], original_from=[america])
+        red_apple = Fruit("red_apple", has_color=[red], has_taste=[sweet], original_from=[america])
+        golden_delicious = Fruit("golden_delicious", has_color=[yellow], has_taste=[sweet], original_from=[america])
+        gala = Fruit("gala", has_color=[red], has_taste=[sweet], original_from=[america])
+        mandarin = Fruit("mandarin", has_color=[yellow], has_taste=[sweet, juicy])
+        apple = Fruit("apple", has_child_food=[green_apple, red_apple, golden_delicious, gala])
+        orange = Fruit("apple", has_child_food=[mandarin])
+        Add more fruits with simplified relations
+        mango = Fruit("mango",
+            has_color=[yellow, orange],
+            has_taste=[sweet, fruity],
+            is_ingredient_of=[fruit_salad, smoothie],
+            has_shape=[round],
+            has_nutrition=[vitamin_A, vitamin_C, fiber, sugar]
+        )
 
-        # pineapple = Fruit("pineapple",
-        #     has_color=[yellow],
-        #     has_taste=[sweet, sour, fruity],
-        #     is_ingredient_of=[fruit_salad, smoothie],
-        #     has_shape=[round],
-        #     has_nutrition=[vitamin_C, vitamin_B, fiber, sugar]
-        # )
+        pineapple = Fruit("pineapple",
+            has_color=[yellow],
+            has_taste=[sweet, sour, fruity],
+            is_ingredient_of=[fruit_salad, smoothie],
+            has_shape=[round],
+            has_nutrition=[vitamin_C, vitamin_B, fiber, sugar]
+        )
 
-        # strawberry = Fruit("strawberry",
-        #     has_color=[red],
-        #     has_taste=[sweet, fruity],
-        #     is_ingredient_of=[fruit_salad, smoothie],
-        #     has_shape=[conical],
-        #     has_nutrition=[vitamin_C, manganese, fiber, sugar]
-        # )
+        strawberry = Fruit("strawberry",
+            has_color=[red],
+            has_taste=[sweet, fruity],
+            is_ingredient_of=[fruit_salad, smoothie],
+            has_shape=[conical],
+            has_nutrition=[vitamin_C, manganese, fiber, sugar]
+        )
 
-        # kiwifruit = Fruit("kiwifruit",
-        #     has_color=[brown, green],
-        #     has_taste=[sour, sweet, fruity],
-        #     is_ingredient_of=[fruit_salad, smoothie],
-        #     has_shape=[round],
-        #     has_nutrition=[vitamin_C, vitamin_K, fiber, sugar]
-        # )
+        kiwifruit = Fruit("kiwifruit",
+            has_color=[brown, green],
+            has_taste=[sour, sweet, fruity],
+            is_ingredient_of=[fruit_salad, smoothie],
+            has_shape=[round],
+            has_nutrition=[vitamin_C, vitamin_K, fiber, sugar]
+        )
 
-        # raspberry = Fruit("raspberry",
-        #     has_color=[red],
-        #     has_taste=[sweet],
-        #     is_ingredient_of=[fruit_salad, smoothie],
-        #     has_shape=[round],
-        #     has_nutrition=[vitamin_C, manganese, fiber, sugar]
-        # )
+        raspberry = Fruit("raspberry",
+            has_color=[red],
+            has_taste=[sweet],
+            is_ingredient_of=[fruit_salad, smoothie],
+            has_shape=[round],
+            has_nutrition=[vitamin_C, manganese, fiber, sugar]
+        )
 
 
 
@@ -405,7 +405,7 @@ def getOnto():
         
     #     Meat 肉类实例 - blender中暂无对应object
         beef = Meat("beef", has_taste=[meaty], has_color=[red])
-        # chicken = Meat("chicken", has_taste=[meaty], has_color=[white])
+        chicken = Meat("chicken", has_taste=[meaty], has_color=[white])
         lamb = Meat("lamb", has_taste=[meaty], has_color=[red])
         pork = Meat("pork", has_taste=[meaty], has_color=[red])
         
@@ -423,12 +423,12 @@ def getOnto():
         
         pan = Kitchenware('pan', has_function=[fry], has_color=[red])   
         pot = Kitchenware('pot', has_function=[boil], has_color=[red])  
-        # chopping_board = Kitchenware('chopping_board', has_function=[cutting])  
+        chopping_board = Kitchenware('chopping_board', has_function=[cutting])  
 
-        # spoon = Tableware('spoon', has_function=[drinking])
-        # # fork = Tableware('fork', has_function=[poking, stabbing])
-        # knife = Tableware('knife', has_function=[cutting])
-        # plate = Tableware('plate', has_function=[servefood], has_shape=[circular], has_sub_function=[chopping_board])
+        spoon = Tableware('spoon', has_function=[drinking])
+        # fork = Tableware('fork', has_function=[poking, stabbing])
+        knife = Tableware('knife', has_function=[cutting])
+        plate = Tableware('plate', has_function=[servefood], has_shape=[circular], has_sub_function=[chopping_board])
     
         # Recipe
         vegetable_juice = Recipe('vegetable_juice', has_ingredient=[carrot, tomato, cucumber])
