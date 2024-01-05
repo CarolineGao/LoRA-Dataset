@@ -117,3 +117,13 @@ Download LoRA Dataset:
 https://drive.google.com/drive/folders/1H4msZ4ae1msEDApxOT7cr1A1QwQ33Pkn
 ```
 
+Citation:
+```
+@inproceedings{gao2023lora,
+  title={LoRA: A Logical Reasoning Augmented Dataset for Visual Question Answering},
+  author={Gao, Jingying and Wu, Qi and Blair, Alan and Pagnucco, Maurice},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year={2023}
+}
+
+```
